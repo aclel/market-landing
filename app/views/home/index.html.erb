@@ -45,6 +45,9 @@
 			background:none; color:#fff; border:1px solid #fff; padding:9px; width:260px;
 			display:inline-block;
 		}
+		.logo {
+			width:100%; padding-bottom:20px; max-width:480px; height:auto
+		}
 		input[type="submit"]{
 			padding:10px; -webkit-appearance:none; width:200px; margin-top:10px; text-align:center; background:rgba(0, 191, 255, 1); border:none; color:#fff; display:inline-block;
 		}
@@ -52,7 +55,7 @@
     </head>
     <body style="text-align:center; background:rgb(17, 24, 39)">
     <div style="width:100%; max-width:800px; text-align:center; margin:140px auto;">
-    	<img src="assets/images/market-is-coming.png" style="width:100%; padding-bottom:20px; max-width:480px; paddingheight:auto" alt="Market is coming"/>
+    	<%= image_tag('market-is-coming.png', :class=>"logo") %>
     	<p><br/>Market is a new social platform that makes it easy for you to find, sell and buy the things you love.</p><p>There are an exclusive amount of beta positions available. <br/><br/><br/><strong>Enter your email now to secure your account:<strong></p>  
     	<!-- Begin MailChimp Signup Form -->
 		<style type="text/css">
