@@ -4,7 +4,6 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.5'
 
 
-
 group :development do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
@@ -39,6 +38,7 @@ end
 group :production do
   gem 'rails_12factor'
   gem 'pg', '0.15.1'
+
 end
 
 # Use ActiveModel has_secure_password
